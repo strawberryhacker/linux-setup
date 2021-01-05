@@ -49,6 +49,8 @@ This is what I did to install Linux. Please be sure to make a backup of the data
 - sudo reboot
 - When you have logged in, type startx
 
+Each time you log in you have to type startx
+
 ## DWM shortcuts
 
 , is left and . is right and my mod key is left-alt
