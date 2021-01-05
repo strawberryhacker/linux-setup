@@ -1,0 +1,50 @@
+{
+    // Colors
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#0000",
+        "editorLineNumber.foreground": "#bdbb58",
+        "editorLineNumber.activeForeground": "#bdbb58",
+        "editorRuler.foreground": "#ff0000"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#32f5fc",
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+
+    // Settings
+    "workbench.colorTheme": "Black Sand",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.folding": false,
+    "editor.occurrencesHighlight": false,
+    "editor.matchBrackets": "never",
+    "editor.glyphMargin": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.statusBar.visible": false,
+    "indenticator.color.dark": "rgba(255,255,255,.1)",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 0,
+    "workbench.editor.showTabs": false,
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.fontSize": 18,
+    "editor.rulers": [
+        80
+    ],
+    "editor.lineHeight": 23,
+}
