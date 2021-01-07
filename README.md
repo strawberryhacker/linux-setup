@@ -29,7 +29,7 @@ This is what I did to install Linux. Please be sure to make a backup of the data
 - Run the following commands
 - sudo apt update
 - sudo apt upgrade
-- sudo apt install xorg stterm suckless-tools build-essential libx11-dev libxinerama-dev libxft-dev libwebkit2-4.0-dev git
+- sudo apt install xorg stterm suckless-tools build-essential libx11-dev libxinerama-dev libxft-dev libwebkit2gtk-4.0-dev git
 - sudo reboot
 - You should now have a minimal desktop
 - Log in and hit ctrl-alt-t
