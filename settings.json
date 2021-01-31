@@ -2,13 +2,13 @@
     // Colors
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#0000",
-        "editorLineNumber.foreground": "#757441",
-        "editorLineNumber.activeForeground": "#757441",
+        "editorLineNumber.foreground": "#616161",
+        "editorLineNumber.activeForeground": "#616161",
         "editorRuler.foreground": "#000000",
         "editor.background": "#002B36",
         "scrollbar.shadow": "#ffffff00",
         "widget.shadow": "#ffffff00",
-        "tab.activeForeground": "#c9c99b"
+        "tab.activeForeground": "#c9c99b",
     },
     "editor.tokenColorCustomizations": {
         "variables": "#c9c99b",
@@ -22,6 +22,20 @@
             {
                 "scope": "comment",
                 "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "keyword.other.unit",
+                "settings": {
+                    "foreground": "#8b763b",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#8b763b",
                     "fontStyle": ""
                 }
             }
