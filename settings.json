@@ -2,12 +2,22 @@
     // Colors
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#0000",
-        "editorLineNumber.foreground": "#bdbb58",
-        "editorLineNumber.activeForeground": "#bdbb58",
-        "editorRuler.foreground": "#ff0000"
+        "editorLineNumber.foreground": "#757441",
+        "editorLineNumber.activeForeground": "#757441",
+        "editorRuler.foreground": "#000000",
+        "editor.background": "#002B36",
+        "scrollbar.shadow": "#ffffff00",
+        "widget.shadow": "#ffffff00",
+        "tab.activeForeground": "#c9c99b"
     },
     "editor.tokenColorCustomizations": {
-        "comments": "#32f5fc",
+        "variables": "#c9c99b",
+        "types": "#c9c99b",
+        "keywords": "#c9c99b",
+        "functions": "#8b763b",
+        "strings": "#25969e",
+        "comments": "#25969e",
+        "numbers": "#8b763b",
         "textMateRules": [
             {
                 "scope": "comment",
@@ -19,7 +29,7 @@
     },
 
     // Settings
-    "workbench.colorTheme": "Black Sand",
+    "workbench.colorTheme": "Kimbie Dark",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
@@ -44,7 +54,12 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.fontSize": 18,
     "editor.rulers": [
-        80
+        90
     ],
-    "editor.lineHeight": 23,
+    "editor.lineHeight": 20,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "Consolas",
+    "git.enabled": false,
 }
