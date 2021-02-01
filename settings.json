@@ -38,6 +38,13 @@
                     "foreground": "#8b763b",
                     "fontStyle": ""
                 }
+            },
+            {
+                "scope": "constant.character.escape",
+                "settings": {
+                    "foreground": "#25969e",
+                    "fontStyle": ""
+                }
             }
         ]
     },
