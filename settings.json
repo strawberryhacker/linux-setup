@@ -4,7 +4,7 @@
         "tab.activeBorder": "#0000",
         "editorLineNumber.foreground": "#616161",
         "editorLineNumber.activeForeground": "#616161",
-        "editorRuler.foreground": "#000000",
+        "editorRuler.foreground": "#98676A",
         "editor.background": "#002B36",
         "scrollbar.shadow": "#ffffff00",
         "widget.shadow": "#ffffff00",
@@ -14,10 +14,10 @@
         "variables": "#c9c99b",
         "types": "#c9c99b",
         "keywords": "#c9c99b",
-        "functions": "#8b763b",
+        "functions": "#98676A",
         "strings": "#25969e",
         "comments": "#25969e",
-        "numbers": "#8b763b",
+        "numbers": "#98676A",
         "textMateRules": [
             {
                 "scope": "comment",
@@ -28,14 +28,14 @@
             {
                 "scope": "keyword.other.unit",
                 "settings": {
-                    "foreground": "#8b763b",
+                    "foreground": "#98676A",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "constant",
                 "settings": {
-                    "foreground": "#8b763b",
+                    "foreground": "#98676A",
                     "fontStyle": ""
                 }
             },
@@ -68,7 +68,6 @@
     "workbench.statusBar.visible": false,
     "indenticator.color.dark": "rgba(255,255,255,.1)",
     "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 0,
     "workbench.editor.showTabs": false,
     "breadcrumbs.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
