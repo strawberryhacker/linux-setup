@@ -1,71 +1,19 @@
 {
     // Colors
     "workbench.colorCustomizations": {
-        "tab.activeBorder": "#0000",
-        "editorLineNumber.foreground": "#616161",
-        "editorLineNumber.activeForeground": "#616161",
-        "editorRuler.foreground": "#98676A",
-        "editor.background": "#002B36",
-        "scrollbar.shadow": "#ffffff00",
-        "widget.shadow": "#ffffff00",
-        "tab.activeForeground": "#a0a086",
+        
     },
     "editor.tokenColorCustomizations": {
-        "variables": "#a0a086",
-        "types": "#a0a086",
-        "keywords": "#a0a086",
-        "functions": "#acac6f",
-        "strings": "#25969e",
-        "comments": "#25969e",
-        "numbers": "#a0a086",
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings": {
-                    "foreground": "#049d1e",
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "punctuation.definition.comment",
-                "settings": {
-                    "foreground": "#049d1e",
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "punctuation",
-                "settings": {
-                    "foreground": "#a0a086",
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "keyword.other.unit",
-                "settings": {
-                    "foreground": "#a0a086",
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "constant",
-                "settings": {
-                    "foreground": "#a0a086",
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "constant.character.escape",
-                "settings": {
-                    "foreground": "#25969e",
-                    "fontStyle": ""
-                }
-            }
-        ]
+        "keywords": {
+            "fontStyle": "italic"
+        }
     },
-
+   
     // Settings
-    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.matchBrackets": "never",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontWeight": "normal",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": false,
@@ -74,37 +22,39 @@
     "editor.hideCursorInOverviewRuler": true,
     "editor.folding": false,
     "editor.occurrencesHighlight": false,
-    "editor.matchBrackets": "never",
-    "editor.glyphMargin": false,
     "explorer.openEditors.visible": 0,
     "workbench.activityBar.visible": false,
     "workbench.editor.showIcons": false,
     "workbench.editor.tabCloseButton": "off",
-    "workbench.statusBar.visible": false,
     "indenticator.color.dark": "rgba(255,255,255,.1)",
     "window.menuBarVisibility": "toggle",
-    "workbench.editor.showTabs": false,
-    "breadcrumbs.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "editor.fontSize": 20,
-    "editor.rulers": [
-        90
-    ],
-    "editor.lineHeight": 24,
     "explorer.confirmDelete": false,
     "files.autoSave": "afterDelay",
     "explorer.confirmDragAndDrop": false,
-    "editor.fontFamily": "Fira Code",
     "git.enabled": false,
     "problems.decorations.enabled": false,
     "outline.problems.colors": false,
     "outline.problems.badges": false,
-    "telemetry.enableTelemetry": false,
     "outline.problems.enabled": false,
-    "C_Cpp.default.enableConfigurationSquiggles": false,
-    "C_Cpp.errorSquiggles": "Disabled",
-    "window.zoomLevel": -1,
-    "terminal.integrated.fontSize": 20,
-    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.lineHeight": 20,
+    "editor.fontSize": 13,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "C_Cpp.default.includePath": [
+        "include"
+    ],
+    "[luxury]": {
+    
+    },
+    "workbench.iconTheme": null,
+    "workbench.colorTheme": "Solarized Monochrome Dark",
+    "workbench.statusBar.visible": false,
+    "editor.fontFamily": "Roboto Mono, Source Code Pro, Cartograph CF, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Roboto Mono, Source Code Pro, Cartograph CF, Consolas, 'Courier New', monospace",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontWeightBold": "normal",
+    "autoHide.autoHideSideBar": false,
+    "autoHide.panelDelay": 0
 }
