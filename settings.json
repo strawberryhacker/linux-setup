@@ -1,22 +1,58 @@
 {
-    // Colors
     "workbench.colorCustomizations": {
-        
+        "editor.background": "#062625",
+        "editor.foreground": "#a29a8d"
     },
     "editor.tokenColorCustomizations": {
-        "keywords": {
-            "fontStyle": "italic"
-        }
+        "keywords": "#aabac4",
+        "variables": "#a29a8d",
+        "comments": "#3ec216",
+        "functions": "#a29a8d",
+        "types": "#74a574",
+        "strings": "#67ad90",
+        "numbers": "#67ad90",
+
+        "textMateRules": [
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "foreground": "#74a574"
+                }
+            },
+            {
+                "scope": "variable.other.enummember",
+                "settings": {
+                    "foreground": "#a29a8d"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor",
+                "settings": {
+                    "foreground": "#a29a8d"
+                }
+            },
+            {
+                "scope": "constant.character.escacolorizepe",
+                "settings": {
+                    "foreground": "#67ad90"
+                }
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#a29a8d"
+                }
+            }
+        ]
     },
    
-    // Settings
     "editor.matchBrackets": "never",
+    "editor.lineNumbers": "off",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.fontWeight": "normal",
     "terminal.integrated.fontWeight": "normal",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
-    "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "none",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
@@ -26,7 +62,6 @@
     "workbench.activityBar.visible": false,
     "workbench.editor.showIcons": false,
     "workbench.editor.tabCloseButton": "off",
-    "indenticator.color.dark": "rgba(255,255,255,.1)",
     "window.menuBarVisibility": "toggle",
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -38,23 +73,17 @@
     "outline.problems.colors": false,
     "outline.problems.badges": false,
     "outline.problems.enabled": false,
-    "editor.lineHeight": 20,
-    "editor.fontSize": 13,
+    "editor.lineHeight": 25,
+    "editor.fontSize": 20,
     "workbench.editor.showTabs": false,
     "workbench.editor.pinnedTabSizing": "shrink",
-    "C_Cpp.default.includePath": [
-        "include"
-    ],
-    "[luxury]": {
-    
-    },
     "workbench.iconTheme": null,
-    "workbench.colorTheme": "Solarized Monochrome Dark",
     "workbench.statusBar.visible": false,
-    "editor.fontFamily": "Roboto Mono, Source Code Pro, Cartograph CF, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "Roboto Mono, Source Code Pro, Cartograph CF, Consolas, 'Courier New', monospace",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontWeightBold": "normal",
-    "autoHide.autoHideSideBar": false,
-    "autoHide.panelDelay": 0
+    "editor.fontFamily": "Consolas",
+    "terminal.integrated.cursorStyle": "block",
+    "editor.guides.indentation": false,
+    "window.zoomLevel": 2,
+    "editor.bracketPairColorization.enabled": false,
+    "C_Cpp.default.enableConfigurationSquiggles": false,
+    "C_Cpp.errorSquiggles": "Disabled"
 }
